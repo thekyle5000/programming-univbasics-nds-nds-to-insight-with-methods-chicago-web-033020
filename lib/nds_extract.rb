@@ -14,9 +14,6 @@ def gross_for_director(director_data)
 end 
 total 
 end
-  
-
-
 
 # Write a method that, given an NDS creates a new Hash
 # The return value should be like:
@@ -25,5 +22,7 @@ end
 
 def directors_totals(nds)
   result = {}
-  nil
+  element_index = 0
+  while element_index < nds.length do
+    nds[element_index]
 end
